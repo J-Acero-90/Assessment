@@ -1,0 +1,20 @@
+version: "3.8"
+
+services:
+  api:
+    build: ./API
+    ports:
+      - "8000:8000"
+    volumes:
+      - ./API:/app
+    environment:
+      - PYTHONUNBUFFERED=1
+    restart: always
+
+  cli:
+    build: ./Interface
+    volumes:
+      - ./Interface:/app
+    depends_on:
+      - api
+    entrypoint: ["dotnet", "Interface.dll", "--file", "./vulnerabilities.json", "--url", "http://api:8000"]

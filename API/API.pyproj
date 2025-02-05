@@ -27,46 +27,17 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="Dockerfile">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="vulnerability_api.py" />
     <Compile Include="API\__init__.py" />
-    <Compile Include="API\views.py" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="API\" />
-    <Folder Include="API\static\" />
-    <Folder Include="API\static\content\" />
-    <Folder Include="API\static\fonts\" />
-    <Folder Include="API\static\scripts\" />
-    <Folder Include="API\templates\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="requirements.txt" />
-    <Content Include="API\static\content\bootstrap.css" />
-    <Content Include="API\static\content\bootstrap.min.css" />
-    <Content Include="API\static\content\site.css" />
-    <Content Include="API\static\fonts\glyphicons-halflings-regular.eot" />
-    <Content Include="API\static\fonts\glyphicons-halflings-regular.svg" />
-    <Content Include="API\static\fonts\glyphicons-halflings-regular.ttf" />
-    <Content Include="API\static\fonts\glyphicons-halflings-regular.woff" />
-    <Content Include="API\static\scripts\bootstrap.js" />
-    <Content Include="API\static\scripts\bootstrap.min.js" />
-    <Content Include="API\static\scripts\jquery-1.10.2.intellisense.js" />
-    <Content Include="API\static\scripts\jquery-1.10.2.js" />
-    <Content Include="API\static\scripts\jquery-1.10.2.min.js" />
-    <Content Include="API\static\scripts\jquery-1.10.2.min.map" />
-    <Content Include="API\static\scripts\jquery.validate-vsdoc.js" />
-    <Content Include="API\static\scripts\jquery.validate.js" />
-    <Content Include="API\static\scripts\jquery.validate.min.js" />
-    <Content Include="API\static\scripts\jquery.validate.unobtrusive.js" />
-    <Content Include="API\static\scripts\jquery.validate.unobtrusive.min.js" />
-    <Content Include="API\static\scripts\modernizr-2.6.2.js" />
-    <Content Include="API\static\scripts\respond.js" />
-    <Content Include="API\static\scripts\respond.min.js" />
-    <Content Include="API\static\scripts\_references.js" />
-    <Content Include="API\templates\about.html" />
-    <Content Include="API\templates\contact.html" />
-    <Content Include="API\templates\index.html" />
-    <Content Include="API\templates\layout.html" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.Web.targets" />
   <!-- Specify pre- and post-build commands in the BeforeBuild and 

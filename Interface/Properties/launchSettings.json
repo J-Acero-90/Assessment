@@ -1,0 +1,9 @@
+{
+  "profiles": {
+    "Interface": {
+      "commandName": "Project",
+      "commandLineArgs": "--file C:\\Users\\jacer\\source\\repos\\Assessment\\Interface\\ten_elements.json --url http://localhost:8000",
+      "remoteDebugEnabled": false
+    }
+  }
+}
