@@ -1,0 +1,23 @@
+# Ignorar la carpeta bin y obj (archivos de compilación)
+bin/
+obj/
+
+# Ignorar paquetes de dependencias locales
+packages/
+*.nuspec
+*.nupkg
+
+# Ignorar archivos de configuración y compilación
+.vscode/
+*.user
+*.suo
+*.csproj.user
+
+# Ignorar archivos de sistema
+*.DS_Store
+*.git/
+*.gitignore
+
+# Ignorar archivos de logs y de depuración
+logs/
+*.log

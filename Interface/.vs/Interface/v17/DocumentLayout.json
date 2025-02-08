@@ -3,6 +3,22 @@
   "WorkspaceRootPath": "C:\\Users\\jacer\\source\\repos\\Assessment\\Interface\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{E461AE0F-49FB-4E6D-BE58-FE7E3B01742B}|Interface\\Interface.csproj|c:\\users\\jacer\\source\\repos\\assessment\\interface\\interface\\.dockerignore||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{E461AE0F-49FB-4E6D-BE58-FE7E3B01742B}|Interface\\Interface.csproj|solutionrelative:interface\\.dockerignore||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E461AE0F-49FB-4E6D-BE58-FE7E3B01742B}|Interface\\Interface.csproj|c:\\users\\jacer\\source\\repos\\assessment\\interface\\interface\\models\\vulnerability.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E461AE0F-49FB-4E6D-BE58-FE7E3B01742B}|Interface\\Interface.csproj|solutionrelative:interface\\models\\vulnerability.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E461AE0F-49FB-4E6D-BE58-FE7E3B01742B}|Interface\\Interface.csproj|c:\\users\\jacer\\source\\repos\\assessment\\interface\\interface\\models\\datamodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E461AE0F-49FB-4E6D-BE58-FE7E3B01742B}|Interface\\Interface.csproj|solutionrelative:interface\\models\\datamodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E461AE0F-49FB-4E6D-BE58-FE7E3B01742B}|Interface\\Interface.csproj|c:\\users\\jacer\\source\\repos\\assessment\\interface\\interface\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E461AE0F-49FB-4E6D-BE58-FE7E3B01742B}|Interface\\Interface.csproj|solutionrelative:interface\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{774810C5-D394-496B-BE5E-172F45C01783}|Elementos de la soluci\u00F3n{774810C5-D394-496B-BE5E-172F45C01783}|C:\\Users\\jacer\\source\\repos\\Assessment\\Interface\\Dockerfile||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{774810C5-D394-496B-BE5E-172F45C01783}|Elementos de la soluci\u00F3n{774810C5-D394-496B-BE5E-172F45C01783}|solutionrelative:Dockerfile||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
@@ -27,6 +43,56 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": ".dockerignore",
+              "DocumentMoniker": "C:\\Users\\jacer\\source\\repos\\Assessment\\Interface\\Interface\\.dockerignore",
+              "RelativeDocumentMoniker": "Interface\\.dockerignore",
+              "ToolTip": "C:\\Users\\jacer\\source\\repos\\Assessment\\Interface\\Interface\\.dockerignore",
+              "RelativeToolTip": "Interface\\.dockerignore",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABcAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-02-08T13:34:36.77Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Vulnerability.cs",
+              "DocumentMoniker": "C:\\Users\\jacer\\source\\repos\\Assessment\\Interface\\Interface\\Models\\Vulnerability.cs",
+              "RelativeDocumentMoniker": "Interface\\Models\\Vulnerability.cs",
+              "ToolTip": "C:\\Users\\jacer\\source\\repos\\Assessment\\Interface\\Interface\\Models\\Vulnerability.cs",
+              "RelativeToolTip": "Interface\\Models\\Vulnerability.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-08T13:28:40.631Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "DataModel.cs",
+              "DocumentMoniker": "C:\\Users\\jacer\\source\\repos\\Assessment\\Interface\\Interface\\Models\\DataModel.cs",
+              "RelativeDocumentMoniker": "Interface\\Models\\DataModel.cs",
+              "ToolTip": "C:\\Users\\jacer\\source\\repos\\Assessment\\Interface\\Interface\\Models\\DataModel.cs",
+              "RelativeToolTip": "Interface\\Models\\DataModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-08T13:28:37.475Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\jacer\\source\\repos\\Assessment\\Interface\\Interface\\Program.cs",
+              "RelativeDocumentMoniker": "Interface\\Program.cs",
+              "ToolTip": "C:\\Users\\jacer\\source\\repos\\Assessment\\Interface\\Interface\\Program.cs",
+              "RelativeToolTip": "Interface\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAbAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-08T13:24:11.273Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "Dockerfile",
               "DocumentMoniker": "C:\\Users\\jacer\\source\\repos\\Assessment\\Interface\\Dockerfile",
               "RelativeDocumentMoniker": "Dockerfile",
@@ -34,12 +100,11 @@
               "RelativeToolTip": "Dockerfile",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2025-02-05T17:33:28.784Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-05T17:33:28.784Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 5,
               "Title": ".gitignore",
               "DocumentMoniker": "C:\\Users\\jacer\\source\\repos\\Assessment\\Interface\\.gitignore",
               "RelativeDocumentMoniker": ".gitignore",

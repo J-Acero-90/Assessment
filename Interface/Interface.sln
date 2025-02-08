@@ -5,6 +5,7 @@ VisualStudioVersion = 17.10.35122.118
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Elementos de la solución", "Elementos de la solución", "{774810C5-D394-496B-BE5E-172F45C01783}"
 	ProjectSection(SolutionItems) = preProject
+		Interface\.dockerignore = Interface\.dockerignore
 		.gitignore = .gitignore
 		Dockerfile = Dockerfile
 	EndProjectSection
