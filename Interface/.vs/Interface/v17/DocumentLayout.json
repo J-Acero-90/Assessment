@@ -3,24 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\jacer\\source\\repos\\Assessment\\Interface\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{6CB6A697-FD78-40BD-B9A9-75FA3072EE03}|Interface.csproj|c:\\users\\jacer\\source\\repos\\assessment\\interface\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6CB6A697-FD78-40BD-B9A9-75FA3072EE03}|Interface.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{774810C5-D394-496B-BE5E-172F45C01783}|Elementos de la soluci\u00F3n{774810C5-D394-496B-BE5E-172F45C01783}|C:\\Users\\jacer\\source\\repos\\Assessment\\Interface\\Dockerfile||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{774810C5-D394-496B-BE5E-172F45C01783}|Elementos de la soluci\u00F3n{774810C5-D394-496B-BE5E-172F45C01783}|solutionrelative:Dockerfile||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6CB6A697-FD78-40BD-B9A9-75FA3072EE03}|Interface.csproj|c:\\users\\jacer\\source\\repos\\assessment\\interface\\vulnerability_schema.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{6CB6A697-FD78-40BD-B9A9-75FA3072EE03}|Interface.csproj|solutionrelative:vulnerability_schema.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6CB6A697-FD78-40BD-B9A9-75FA3072EE03}|Interface.csproj|c:\\users\\jacer\\source\\repos\\assessment\\interface\\ten_elements.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{6CB6A697-FD78-40BD-B9A9-75FA3072EE03}|Interface.csproj|solutionrelative:ten_elements.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6CB6A697-FD78-40BD-B9A9-75FA3072EE03}|Interface.csproj|c:\\users\\jacer\\source\\repos\\assessment\\interface\\zero_elements.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{6CB6A697-FD78-40BD-B9A9-75FA3072EE03}|Interface.csproj|solutionrelative:zero_elements.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6CB6A697-FD78-40BD-B9A9-75FA3072EE03}|Interface.csproj|c:\\users\\jacer\\source\\repos\\assessment\\interface\\one_element.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{6CB6A697-FD78-40BD-B9A9-75FA3072EE03}|Interface.csproj|solutionrelative:one_element.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{774810C5-D394-496B-BE5E-172F45C01783}|Elementos de la soluci\u00F3n{774810C5-D394-496B-BE5E-172F45C01783}|C:\\Users\\jacer\\source\\repos\\Assessment\\Interface\\.gitignore||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{774810C5-D394-496B-BE5E-172F45C01783}|Elementos de la soluci\u00F3n{774810C5-D394-496B-BE5E-172F45C01783}|solutionrelative:.gitignore||{3B902123-F8A7-4915-9F01-361F908088D0}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,7 +18,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Bookmark",
@@ -38,68 +26,28 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "vulnerability_schema.json",
-              "DocumentMoniker": "C:\\Users\\jacer\\source\\repos\\Assessment\\Interface\\vulnerability_schema.json",
-              "RelativeDocumentMoniker": "vulnerability_schema.json",
-              "ToolTip": "C:\\Users\\jacer\\source\\repos\\Assessment\\Interface\\vulnerability_schema.json",
-              "RelativeToolTip": "vulnerability_schema.json",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAKAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-02-05T17:23:44.267Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "zero_elements.json",
-              "DocumentMoniker": "C:\\Users\\jacer\\source\\repos\\Assessment\\Interface\\zero_elements.json",
-              "RelativeDocumentMoniker": "zero_elements.json",
-              "ToolTip": "C:\\Users\\jacer\\source\\repos\\Assessment\\Interface\\zero_elements.json",
-              "RelativeToolTip": "zero_elements.json",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAABAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-02-05T17:07:02.168Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "ten_elements.json",
-              "DocumentMoniker": "C:\\Users\\jacer\\source\\repos\\Assessment\\Interface\\ten_elements.json",
-              "RelativeDocumentMoniker": "ten_elements.json",
-              "ToolTip": "C:\\Users\\jacer\\source\\repos\\Assessment\\Interface\\ten_elements.json",
-              "RelativeToolTip": "ten_elements.json",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAACwAAAAGAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-02-05T17:06:42.399Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "one_element.json",
-              "DocumentMoniker": "C:\\Users\\jacer\\source\\repos\\Assessment\\Interface\\one_element.json",
-              "RelativeDocumentMoniker": "one_element.json",
-              "ToolTip": "C:\\Users\\jacer\\source\\repos\\Assessment\\Interface\\one_element.json",
-              "RelativeToolTip": "one_element.json",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAABAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-02-05T17:06:28.657Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\jacer\\source\\repos\\Assessment\\Interface\\Program.cs",
-              "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "C:\\Users\\jacer\\source\\repos\\Assessment\\Interface\\Program.cs",
-              "RelativeToolTip": "Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAJAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-04T18:36:02.023Z",
+              "Title": "Dockerfile",
+              "DocumentMoniker": "C:\\Users\\jacer\\source\\repos\\Assessment\\Interface\\Dockerfile",
+              "RelativeDocumentMoniker": "Dockerfile",
+              "ToolTip": "C:\\Users\\jacer\\source\\repos\\Assessment\\Interface\\Dockerfile",
+              "RelativeToolTip": "Dockerfile",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-02-05T17:33:28.784Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": ".gitignore",
+              "DocumentMoniker": "C:\\Users\\jacer\\source\\repos\\Assessment\\Interface\\.gitignore",
+              "RelativeDocumentMoniker": ".gitignore",
+              "ToolTip": "C:\\Users\\jacer\\source\\repos\\Assessment\\Interface\\.gitignore",
+              "RelativeToolTip": ".gitignore",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-02-05T17:30:42.699Z"
             }
           ]
         }

@@ -1,19 +1,18 @@
-# Usa una imagen de Python ligera
-FROM python:3.10-slim
+# Use a base image of Python
+FROM python:3.9-slim-buster
 
-# Establecer el directorio de trabajo dentro del contenedor
+# Set the working directory inside the container
 WORKDIR /app
 
-# Copiar archivos al contenedor
+# Copy the project file and restore dependencies
 COPY requirements.txt .
 RUN pip install --no-cache-dir -r requirements.txt
 
-# Copiar el código fuente
+# Copy the remaining source code and build the application
 COPY . .
 
-# Exponer el puerto en el que corre la API
-EXPOSE 8000
+# Base image: .NET Runtime for running the application
+EXPOSE 5000
 
-# Comando para ejecutar la API
-CMD ["python", "vulnerability_api.py"]
-
+# Set the entry point
+CMD ["uvicorn", "vulnerability_api:app", "--host", "0.0.0.0", "--port", "5000" ]

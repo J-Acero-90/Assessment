@@ -1,21 +1,20 @@
-﻿# Usa la imagen oficial de .NET SDK para compilar
-FROM mcr.microsoft.com/dotnet/sdk:7.0 AS build
+﻿# Base image: .NET SDK for building the application
+FROM mcr.microsoft.com/dotnet/sdk:8.0 AS build
 WORKDIR /app
 
-# Copia el archivo de proyecto y restaura dependencias
-COPY *.csproj .
-RUN dotnet restore
+# Copy the project file and restore dependencies
+COPY Interface/*.csproj ./Interface/
+RUN dotnet restore Interface/Interface.csproj
 
-# Copia el resto del código y compila
-COPY . .
-RUN dotnet publish -c Release -o /publish
+# Copy the remaining source code and build the application
+COPY Interface/ ./Interface/
+WORKDIR /app/Interface
+RUN dotnet publish -c Release -o /out
 
-# Usa una imagen más ligera para ejecutar el binario
-FROM mcr.microsoft.com/dotnet/runtime:7.0
+# Base image: .NET Runtime for running the application
+FROM mcr.microsoft.com/dotnet/runtime:8.0 AS runtime
 WORKDIR /app
+COPY --from=build /out .
 
-# Copia el binario compilado
-COPY --from=build /publish .
-
-# Comando para ejecutar el CLI con argumentos
+# Set the entry point
 ENTRYPOINT ["dotnet", "Interface.dll"]
